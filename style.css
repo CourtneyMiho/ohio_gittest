@@ -1,0 +1,23 @@
+body {
+	background-color: green;
+
+}
+p {font-size: 100px;
+	background-color: purple;
+}
+h1 {background-color: purple;
+}
+h3 {background-color: purple;
+}
+
+.center {
+	text-align: center;
+}
+div {
+	width: 48%;
+	background-color: pink;
+	margin: 1%;
+	padding-top: 200px;
+	font-size: 3em;
+	float: left;
+}
