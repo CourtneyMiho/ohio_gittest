@@ -2,7 +2,7 @@ body {
 	background-color: green;
 
 }
-p {font-size: 100px;
+p {font-size: 50px;
 	background-color: purple;
 }
 h1 {background-color: purple;
@@ -13,11 +13,29 @@ h3 {background-color: purple;
 .center {
 	text-align: center;
 }
+.center {width:100%;
+}
 div {
-	width: 48%;
+	width: 96%;
 	background-color: pink;
-	margin: 1%;
+	margin: 0 auto;
 	padding-top: 200px;
+	font-size: 2em;
+	
+}
+
+
+@media (min-width: 768px){
+div {
+	background-color: yellow;
+	padding-top: 100px;
 	font-size: 3em;
-	float: left;
+	
+}
+}
+@media (min-width: 1180px) {
+	.container {
+		margin: 0 auto;
+		width: 1160px; 
+	}
 }
